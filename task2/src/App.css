@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-field {
+  display: flex;
+  gap: 15px;
+}
+
+input {
+  border-radius: 10px;
+  padding: 6px;
+
+}
+
+.submit-button {
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.list-field {
+  display: flex;
+  margin: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* padding: auto; */
+}
+
+.add-hobby {
+  background-color: #333;
+  padding: 8px;
+  border-radius: 20px;
+  border: 2px solid gray;
+}
+
+.error {
+  color: red;
+  word-wrap: break-word;
+}
+
+.hobby-container {
+  display: flex;
+  gap: 10px;
+}
+
+.hobby-container div {
+  border-radius: 20px;
+  border: 2px solid;
+  padding: 10px;
+}
+
+.new-hobby {
+  display: flex;
+  gap: 10px;
+}
+
+.success {
+  display: flex;
+  background-color: lightgreen;
+  color: black;
+  padding: 15px;
+  padding-right: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.success button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 12px;
+  background-color: transparent;
+  color: black;
+  padding: 1px;
+}
+
+.success button:hover {
+  scale: 105%;
+  border: none;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
